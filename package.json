@@ -1,0 +1,22 @@
+{
+  "name": "vegis-website",
+  "version": "1.0.0",
+  "description": "The Official website for vegistechnology",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "WebDevelopment",
+    "JavaScript",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Uzoanya Dominic",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  }
+}

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    /* footer #1b1b1b #262626 */
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.65;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    transition: 0.8s;
+}
+
+nav li a {
+    color: #fff !important;
+}
+
+nav li a:hover {
+    background: none !important;
+    color: #ffa500 !important;
+}
+
+.scrolled {
+    background-color: #fff !important;
+    transition: 0.8s;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.scrolled-links {
+    color: #333 !important;
+}
+
+.header-content {
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+    color: #ccc;
+}
+
+#readMore {
+    border: 2px solid #fff;
+    background: transparent;
+    box-shadow: none !important;
+}
+
+#readMore:hover {
+    background: #fff;
+    color: #333;
+}
+
+.page-footer {
+    background-color: #673ab7;
+}
+
+.footer-copyright .row {
+    margin-bottom: 0;
+}
+
+.footer-copyright .container .row {
+    padding: 10px;
+}
+
+.footer-copyright .container .row span {
+    font-family: Open Sans, Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.footer-icon {
+    font-size: 24px !important;
+    margin-right: 20px;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+    color: #ffa500;
+}
+
+@media (max-width: 960px) {
+    /* .container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    } */
+}

@@ -15,39 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-.v-header {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    color: #fff;
-}
-
-.fullscreen-video-wrap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.fullscreen-video-wrap video {
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: fill;
-}
-
-.header-overlay {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #225470;
-    z-index: 1;
-    opacity: 0.65;
-}
-
 nav {
     position: absolute;
     top: 0;
@@ -68,6 +35,26 @@ nav li a {
 nav li a:hover {
     background: none !important;
     color: #ffa500 !important;
+}
+
+.sidenav {
+    background: -webkit-linear-gradient(to bottom, #42275a, #734b6d);
+    background: -moz-linear-gradient(to bottom, #42275a, #734b6d);
+    background: -ms-linear-gradient(to bottom, #42275a, #734b6d);
+    background: -o-linear-gradient(to bottom, #42275a, #734b6d);
+    background:  linear-gradient(to bottom, #42275a, #734b6d);
+}
+
+.sidenav-overlay {
+    z-index: 4;
+}
+
+.sidenav li > a {
+    color: #fff !important;
+}
+
+nav.scrolled #menu-icon {
+    color: #333;
 }
 
 .scrolled {
@@ -110,7 +97,12 @@ nav li a:hover {
 }
 
 .page-footer {
-    background-color: #673ab7;
+    /* background-color: #673ab7; */
+    background: -webkit-linear-gradient(to bottom right, #42275a, #734b6d);
+    background: -moz-linear-gradient(to bottom right, #42275a, #734b6d);
+    background: -ms-linear-gradient(to bottom right, #42275a, #734b6d);
+    background: -o-linear-gradient(to bottom right, #42275a, #734b6d);
+    background:  linear-gradient(to bottom right, #42275a, #734b6d);
 }
 
 .footer-copyright .row {
@@ -140,4 +132,36 @@ nav li a:hover {
         padding-right: 3rem;
         padding-left: 3rem;
     } */
+}
+
+@media (max-width: 768px) {
+    #values {
+        padding: 0 0 20px 0 !important;
+    }
+
+    #values p {
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+    }
+
+    #values h4 {
+        background: -webkit-linear-gradient(to right, #42275a, #734b6d);
+        background: -moz-linear-gradient(to right, #42275a, #734b6d);
+        background: -ms-linear-gradient(to right, #42275a, #734b6d);
+        background: -o-linear-gradient(to right, #42275a, #734b6d);
+        background:  linear-gradient(to right, #42275a, #734b6d);
+        color: #fff;
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .footer-copyright .container .row span {
+        clear: left;
+        /* position: relative;
+        left: 0; */
+    }
+
+    .page-footer {
+        text-align: center;
+    }
 }

@@ -1,3 +1,36 @@
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.65;
+}
+
 .section {
     color: #666;
     padding: 20px 40px;
@@ -48,7 +81,12 @@
 }
 
 #values-contact {
-    background-color: #673ab7;
+    /* background-color: #673ab7; */
+    background: -webkit-linear-gradient(to right, #42275a, #734b6d);
+    background: -moz-linear-gradient(to right, #42275a, #734b6d);
+    background: -ms-linear-gradient(to right, #42275a, #734b6d);
+    background: -o-linear-gradient(to right, #42275a, #734b6d);
+    background:  linear-gradient(to right, #42275a, #734b6d);
     color: #fff;
     font-size: 25px;
     font-weight: 300;
@@ -71,7 +109,7 @@
 }
 
 #values-contact-button:hover {
-    background-color: #5022a2;
+    background-color: #4c2e5e;
 }
 
 .parallax1, .parallax2 {
@@ -93,13 +131,25 @@
     min-height: 500px;
 }
 
+.parallax2 .parallax-text {
+    border: none;
+    background: none;
+}
+
 .parallax-text {
+    background-color: #111;
+    opacity: 0.9;
     position: relative;
     top: 250px !important;
+    left: 25% !important;
     text-align: center;
     font-size: 37px;
     font-weight: 400;
+    padding: 20px;
     color: #fff;
+    max-width: 50% !important;
+    text-align: center;
+    border-left: 5px solid #673ab7;
 }
 
 /* Card Section Start */

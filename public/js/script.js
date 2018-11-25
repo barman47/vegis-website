@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('.sidenav').sidenav();
     var header = $("nav");
     var links = $('.links');
     $(window).scroll(function() {

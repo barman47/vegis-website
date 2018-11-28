@@ -33,12 +33,41 @@
 
 .section {
     color: #666;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
     /* margin: 80px 50px; */
 }
 
 #products {
-    margin-top: 50px;
+    margin-top: 3.125rem;
+    text-align: center;
+}
+
+.product-icon  {
+    color: #462a5c;
+    font-size: 9.375rem;
+    opacity: 0.8;
+    transition: 0.5s linear color;
+}
+
+.product-icon:hover  {
+    color: #db8e00;
+}
+
+#products p {
+    font-weight: 600;
+}
+
+a.more {
+    color: #333;
+}
+
+a.more:hover {
+    color: #039be5;
+    text-decoration: underline;
+}
+
+a.btn-more:visited {
+    color: #333;
 }
 
 .card-panel {
@@ -50,23 +79,23 @@
     background-color: #fff;
     color: #666;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 #values h4 {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .values-icon {
     width: 100% !important;
     height: 100% !important;
     color: #c0c0c0;
-    border: 2px solid #c0c0c0 !important;
+    border: 0.125rem solid #c0c0c0 !important;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     font-size: 3.5em; /* 90px */;
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     text-align: center;
 }
 
@@ -77,7 +106,7 @@
 }
 
 .values-header {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 #values-contact {
@@ -88,24 +117,24 @@
     background: -o-linear-gradient(to right, #42275a, #734b6d);
     background:  linear-gradient(to right, #42275a, #734b6d);
     color: #fff;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 300;
     margin-bottom: 0;
-    padding: 50px;
+    padding: 3.125rem;
     text-align: center;
 }
 
 #values-contact-button {
     background: transparent;
-    border: 2px solid #fff;
+    border: 0.125rem solid #fff;
     color: #fff;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
      box-shadow: none;
 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-     border-radius: 5px;
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem;
+     border-radius: 0.3125rem;
 }
 
 #values-contact-button:hover {
@@ -123,12 +152,12 @@
 
 .parallax1 {
     background-image: url('/img/parallax1.jpg');
-    min-height: 500px;
+    min-height: 31.25rem;
 }
 
 .parallax2 {
     background-image: url('/img/parallax2.jpg');
-    min-height: 500px;
+    min-height: 31.25rem;
 }
 
 .parallax2 .parallax-text {
@@ -139,58 +168,28 @@
 .parallax-text {
     background-color: #111;
     opacity: 0.9;
-    position: relative;
-    top: 250px !important;
-    left: 25% !important;
-    text-align: center;
-    font-size: 37px;
+    position: relative !important;
+    top: 15.625rem !important;
+    left: 25%;
+    font-size: 2.3125rem;
     font-weight: 400;
-    padding: 20px;
+    padding: 1.25rem;
     color: #fff;
-    max-width: 50% !important;
-    text-align: center;
-    border-left: 5px solid #673ab7;
+    max-width: 50%;
+    border-left: 0.3125rem solid #673ab7;
 }
-
-/* Card Section Start */
-
-.team-image-container {
-
-}
-
-.team {
-
-}
-
-.team span {
-
-}
-
-.team p {
-    font-weight: 500;
-}
-
-.team-image-container {
-    width: 200px;
-    height: 200px;
-    border: none;
-    border-radius: 50%;
-    margin: 20px 0;
-}
-
-/* Card Section End */
 
 .card .card-content p {
     font-weight: 500;
 }
 
 section {
-    padding: 30px 0;
+    padding: 1.875rem 0;
 }
 
 section h3 {
     color: #666;
     margin: 0;
     text-align: center;
-    margin-bottom: 30px
+    margin-bottom: 1.875rem
 }

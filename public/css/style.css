@@ -9,7 +9,7 @@ body {
     /* footer #1b1b1b #262626 */
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     color: #333;
     overflow-x: hidden;
@@ -23,8 +23,8 @@ nav {
     z-index: 3;
     background-color: transparent !important;
     box-shadow: none !important;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 1.875rem !important;
+    padding-right: 1.875rem !important;
     transition: 0.8s;
 }
 
@@ -43,6 +43,7 @@ nav li a:hover {
     background: -ms-linear-gradient(to bottom, #42275a, #734b6d);
     background: -o-linear-gradient(to bottom, #42275a, #734b6d);
     background:  linear-gradient(to bottom, #42275a, #734b6d);
+    width: 50vw;
 }
 
 .sidenav-overlay {
@@ -53,8 +54,15 @@ nav li a:hover {
     color: #fff !important;
 }
 
+
+
 nav.scrolled #menu-icon {
     color: #333;
+}
+
+.brand-logo img {
+    width: 11.25rem;
+    height: 1.875rem;
 }
 
 .scrolled {
@@ -70,12 +78,16 @@ nav.scrolled #menu-icon {
 }
 
 .header-content {
+    text-align: center;
+    width: 100vw;
     z-index: 2;
 }
 
 .header-content h1 {
-    font-size: 50px;
-    margin-bottom: 0;
+    font-size: 3.125rem;
+    margin-bottom: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .header-content p {
@@ -83,17 +95,39 @@ nav.scrolled #menu-icon {
     display: block;
     padding-bottom: 2rem;
     color: #ccc;
+    text-align: left;
+}
+
+.txt-type > .txt {
+    border-right: 0.2rem solid #fff;
 }
 
 #readMore {
-    border: 2px solid #fff;
+    border: 0.125rem solid #fff;
     background: transparent;
     box-shadow: none !important;
+    margin: auto;
 }
 
 #readMore:hover {
     background: #fff;
     color: #333;
+}
+#top {
+    display: none;
+}
+
+.btn-floating {
+    background-color: #db8e00;
+}
+
+#top-arrow {
+    color: #fff;
+}
+
+a.btn-floating:hover {
+    background-color: #c98200;
+    border: none;
 }
 
 .page-footer {
@@ -105,12 +139,16 @@ nav.scrolled #menu-icon {
     background:  linear-gradient(to bottom right, #42275a, #734b6d);
 }
 
+.page-footer h5 {
+    color: #db8e00;
+}
+
 .footer-copyright .row {
     margin-bottom: 0;
 }
 
 .footer-copyright .container .row {
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .footer-copyright .container .row span {
@@ -118,8 +156,8 @@ nav.scrolled #menu-icon {
 }
 
 .footer-icon {
-    font-size: 24px !important;
-    margin-right: 20px;
+    font-size: 1.5rem !important;
+    margin-right: 1.25rem;
 }
 
 .footer-icon:hover {
@@ -155,6 +193,18 @@ nav.scrolled #menu-icon {
         padding: 10px;
     }
 
+    #values-contact-button {
+        margin-top: 2rem;
+    }
+
+    div.parallax-text {
+        position: relative;
+        left: 0 !important;
+        border: none !important;
+        max-width: 100% !important;
+        font-size: 20px !important;
+    }
+
     .footer-copyright .container .row span {
         clear: left;
         /* position: relative;
@@ -163,5 +213,9 @@ nav.scrolled #menu-icon {
 
     .page-footer {
         text-align: center;
+    }
+
+    #footer-links {
+        margin-left: 35%;
     }
 }

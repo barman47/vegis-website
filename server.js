@@ -11,7 +11,7 @@ const fs = require('fs');
 // const passport = require('passport');
 // const moment = require('moment');
 
-const products = require('./routes/products');
+const store = require('./routes/store');
 // const services = require('./routes/services');
 // const users = require('./routes/users');
 //
@@ -86,7 +86,7 @@ app.set('view engine', '.hbs');
 //     next();
 // });
 //
-app.use('/products', products);
+app.use('/store', store);
 // app.use('/services', services);
 // app.use('/users', users);
 

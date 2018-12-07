@@ -6,7 +6,7 @@ nav li a {
     color: #333 !important;
 }
 
-nav li a.products {
+nav li a.store {
     border-bottom: 4px solid #ffa500;
 }
 
@@ -28,16 +28,16 @@ a.breadcrumb:hover {
     margin-top: -0.3rem !important;
 }
 
-a.breadcrumb.products {
+a.breadcrumb.store {
     color: #42275a !important;
     font-family: 'Krub', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-a.breadcrumb.products:hover {
+a.breadcrumb.store:hover {
     color: #ffa500 !important;
 }
 
-#products .card {
+#store .card {
     cursor: pointer;
     /* padding-top: 3rem; */
 }
@@ -46,29 +46,29 @@ a.breadcrumb.products:hover {
     font-family: 'Krub', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#products-header {
+#store-header {
     background-color: #fff;
     margin: 2.5rem 0;
     padding: 1rem 2rem;
 }
 
-#products-header h4 {
+#store-header h4 {
     color: #6d476b;
     font-family: 'Krub', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#products {
+#store {
     background-color: #fff;
     padding: 10px;
 }
 
-#products-container .product {
+#store-container .store {
     border: 2px solid blue;
     flex-wrap: wrap;
     flex-basis: 25%;
 }
 
-#products h5 {
+#store h5 {
     color: #ffa500;
     font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -95,19 +95,19 @@ a.breadcrumb.products:hover {
 }
 
 @media (max-width: 960px) {
-    #products-container {
+    #store-container {
         display: flex;
         flex-direction: column;
         
     }
 
-    #products-container .product {
+    #store-container .store {
         flex-basis: 50%;
     }
 }
 
 @media (max-width: 768px) {
-    #products-container .product {
+    #store-container .store {
         flex-basis: 100%;
     }
 }

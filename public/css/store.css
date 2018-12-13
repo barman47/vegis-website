@@ -7,7 +7,7 @@ nav li a {
 }
 
 nav li a.store {
-    border-bottom: 4px solid #ffa500;
+    color: #ffa500 !important;
 }
 
 nav #menu-icon {
@@ -39,7 +39,6 @@ a.breadcrumb.store:hover {
 
 #store .card {
     cursor: pointer;
-    /* padding-top: 3rem; */
 }
 
 .card-action span, .pagination {

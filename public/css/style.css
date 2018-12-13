@@ -32,7 +32,7 @@ nav li a {
 
 nav li a:hover {
     background: none !important;
-    color: #ffa500 !important;
+    color: #039be5 !important;
 }
 
 .sidenav {
@@ -166,6 +166,10 @@ a.btn-floating:hover {
 #find-us p span {
     color: #e1e1e1;
     font-size: 1.2rem;
+}
+
+.underline {
+    border-bottom: 3px solid #734b6d;
 }
 
 @media (max-width: 960px) {

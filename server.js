@@ -12,7 +12,7 @@ const fs = require('fs');
 // const moment = require('moment');
 
 const store = require('./routes/store');
-// const services = require('./routes/services');
+const projects = require('./routes/projects');
 // const users = require('./routes/users');
 //
 const path = require('path');
@@ -87,7 +87,7 @@ app.set('view engine', '.hbs');
 // });
 //
 app.use('/store', store);
-// app.use('/services', services);
+app.use('/projects', projects);
 // app.use('/users', users);
 
 app.get('/', (req, res) => {
@@ -95,6 +95,13 @@ app.get('/', (req, res) => {
         title: 'Vegistech - Home',
         style: 'index.css',
         script: 'index.js'
+    });
+});
+
+app.get('/about', (req, res) => {
+    res.render('about', {
+        title: 'About Vegistech',
+        style: 'about.css'
     });
 });
 

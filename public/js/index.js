@@ -1,5 +1,5 @@
 class TypeWriter {
-    constructor (txtElement, words, wait = 3000) {
+    constructor (txtElement, words, wait = 5000) {
         this.txtElement = txtElement;
         this.words = words;
         this.txt = '';
@@ -55,7 +55,9 @@ class TypeWriter {
 }
 
 // Init On DOM Load
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(init, 3000);
+});
 
 // Init App
 function init () {
